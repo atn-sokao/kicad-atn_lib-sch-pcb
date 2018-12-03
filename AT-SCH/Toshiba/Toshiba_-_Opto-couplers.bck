@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLP250H(TP1,F)
+D Logic Output Opto-couplers Photocoupler, Photo IC Output
+F https://th.mouser.com/datasheet/2/408/TLP250H_datasheet_en_20151224-771279.pdf
+$ENDCMP
+#
+#End Doc Library

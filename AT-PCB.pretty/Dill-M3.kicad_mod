@@ -1,0 +1,10 @@
+(module Dill-M3 (layer F.Cu) (tedit 59CEFF4C)
+  (fp_text reference M3 (at 0 5.25) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.17)))
+  )
+  (fp_text value Dill (at 0 4.2) (layer F.SilkS) hide
+    (effects (font (size 0.8 0.8) (thickness 0.17)))
+  )
+  (fp_circle (center 0 0) (end 3.5 0) (layer F.SilkS) (width 0.2))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
+)

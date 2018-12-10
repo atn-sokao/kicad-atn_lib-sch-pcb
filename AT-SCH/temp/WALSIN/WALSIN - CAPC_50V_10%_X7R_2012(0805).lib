@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CC0805KRX7R9BB101
+#
+DEF ~CC0805KRX7R9BB101 C 0 0 N N 1 F N
+F0 "C" 0 200 60 H V C CNN
+F1 "CC0805KRX7R9BB101" 0 -75 59 H I C CNN
+F2 "CAPC_2012(0805)" 0 -150 60 H I C CNN
+F3 "https://www.es.co.th/Schemetic/PDF/GENERALMLCC-W.PDF" 0 -250 60 H I C CNN
+F4 "WALSIN" 0 -400 59 H I C CNN "Manufacturer"
+F5 "2012(0805)" 0 -500 59 H I C CNN "Package"
+F6 "0.1uF" 0 125 59 H V C CNN "Comment"
+F7 "~" -25 -600 59 H I C CNN "Power"
+F8 "50V" 0 -800 59 H I C CNN "Voltage"
+F9 "10%" 0 -700 59 H I C CNN "Tolerance"
+F10 "~" 0 -900 59 H I C CNN "Current"
+F11 "0328-0043-4" 0 -1000 59 H I C CNN "ES P/N"
+F12 "~" 0 -1100 59 H I C CNN "Mouser No"
+$FPLIST
+ 0805
+ 2012
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -100 0 -15 0 N
+P 2 0 1 0 -15 70 -15 -70 N
+P 2 0 1 0 15 0 100 0 N
+P 2 0 1 0 15 70 15 -70 N
+X ~ 1 -150 0 50 R 60 60 1 1 P
+X ~ 2 150 0 50 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

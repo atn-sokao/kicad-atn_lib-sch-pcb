@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SZ1012
+D SILICON ZENER DIODES 12V/1W, Iz=21mA
+F https://www.es.co.th/Schemetic/PDF/SZ103D_SZ10D0.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MFR_PART-NUMBER_XX
+#
+DEF ~MFR_PART-NUMBER_XX R 0 0 N N 1 F N
+F0 "R" 0 75 50 H V C CNN
+F1 "MFR_PART-NUMBER_XX" 0 -75 50 H I C CNN
+F2 "Footprint" 0 -150 50 H I C CNN
+F3 "Datasheet URL" 0 -225 50 H I C CNN
+F4 "Part/Value" 0 -300 50 H I C CNN "Part/Value"
+F5 "Power" 0 -375 50 H I C CNN "Power"
+F6 "Current" 0 -450 50 H I C CNN "Current"
+F7 "Tolerance" 0 -525 50 H I C CNN "Tolerance"
+F8 "Temperature" 0 -600 50 H I C CNN "Temperature"
+F9 "LabelSS" 0 -675 50 H I C CNN "LabelSS"
+F10 "Comment" 0 -750 50 H I C CNN "Comment"
+F11 "Do_not_Install" 0 -825 50 H I C CNN "Do_not_Install"
+F12 "Part_Number" 0 -975 50 H I C CNN "Part_Number"
+F13 "Manufacturer" 0 -1050 50 H I C CNN "Manufacturer"
+F14 "Descriptions" 0 -1125 50 H I C CNN "Descriptions"
+F15 "Case/Package" 0 -1200 50 H I C CNN "Case/Package"
+F16 "Mount" 0 -1275 50 H I C CNN "Mount"
+F17 "Distributor" 0 -1425 50 H I C CNN "Distributor"
+F18 "Distributor_SKU" 0 -1500 50 H I C CNN "Distributor_SKU"
+DRAW
+P 10 0 1 0 -100 0 -90 0 -75 25 -45 -25 -15 25 15 -25 45 25 75 -25 90 0 100 0 N
+X ~ 1 -150 0 50 R 60 60 1 1 P
+X ~ 2 150 0 50 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

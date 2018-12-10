@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP CC0805KRX7R9BB101
-D Chip Cap 0.1uF/50Vdc,±10%,X7R,2012(0805)
-F https://www.es.co.th/Schemetic/PDF/GENERALMLCC-W.PDF
-$ENDCMP
-#
-#End Doc Library

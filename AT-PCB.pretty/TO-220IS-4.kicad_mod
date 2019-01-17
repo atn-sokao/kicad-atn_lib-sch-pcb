@@ -1,8 +1,8 @@
-(module TO-220IS-4 (layer F.Cu) (tedit 5C026B97)
-  (fp_text reference U1 (at 0 2.2) (layer F.SilkS)
+(module TO-220IS-4 (layer F.Cu) (tedit 5C016F17)
+  (fp_text reference U? (at 0 2.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (fp_text value KIA278R12PI_P (at 0 -9.8) (layer F.SilkS) hide
+  (fp_text value TO-220IS-4 (at 0 -9.8) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (fp_circle (center -5.5 0) (end -5.4 0) (layer F.SilkS) (width 0.3))
@@ -109,9 +109,4 @@
     (solder_mask_margin 0.1))
   (pad "" np_thru_hole circle (at 0 -16.3) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask)
     (solder_mask_margin 0.15) (clearance 2.55))
-  (model ${AT_KICAD3D}/TO-220F-4.stp
-    (offset (xyz 0 1 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

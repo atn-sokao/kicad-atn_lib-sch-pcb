@@ -1,0 +1,1633 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Amplifier_Operational_TL062
+#
+DEF Amplifier_Operational_TL062 U 0 5 Y Y 3 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "Amplifier_Operational_TL062" 0 -200 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS LM358 AD8620 LMC6062 LMC6082 TL062 TL072 TL082 NE5532 SA5532 RC4558 RC4560 RC4580 LMV358 TS912 TSV912IDT TSV912IST TLC272 TLC277 MCP602 OPA2134 OPA2340 OPA2376xxD OPA2376xxDGK MC33078 MC33178 LM4562 OP249 OP275 ADA4075-2 MCP6002-xP MCP6002-xSN MCP6002-xMS LM7332 OPA2333xxD OPA2333xxDGK LMC6482 LT1492 LTC6081xMS8 LM6172 MCP6L92 NJM2043 NJM2114 NJM4556A NJM4558 NJM4559 NJM4560 NJM4580 NJM5532 ADA4807-2ARM OPA2691 LT6233 OPA2356xxD OPA2356xxDGK OPA1612AxD MC33172 OPA1602
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+ DIP*W7.62mm*
+ TO*99*
+ OnSemi*Micro8*
+ TSSOP*3x3mm*P0.65mm*
+ TSSOP*4.4x3mm*P0.65mm*
+ MSOP*3x3mm*P0.65mm*
+ SSOP*3.9x4.9mm*P0.635mm*
+ LFCSP*2x2mm*P0.5mm*
+ *SIP*
+ SOIC*5.3x6.2mm*P1.27mm*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X - 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X V- 4 -100 -300 150 U 50 50 3 1 W
+X V+ 8 -100 300 150 D 50 50 3 1 W
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_4052(2)-cmos4000_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_4052(2)-cmos4000_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_4052(2)-cmos4000_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -50 50 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -400 650 400 -650 0 1 0 f
+X VSS 8 700 -500 300 L 50 50 0 0 W
+X VDD 16 700 -150 300 L 50 50 1 0 W
+X Y0 1 -700 200 300 R 50 50 1 1 P
+X A 10 -700 -500 300 R 50 50 1 1 I
+X X3 11 -700 300 300 R 50 50 1 1 P
+X X0 12 -700 600 300 R 50 50 1 1 P
+X X 13 700 600 300 L 50 50 1 1 P
+X X1 14 -700 500 300 R 50 50 1 1 P
+X X2 15 -700 400 300 R 50 50 1 1 P
+X Y2 2 -700 0 300 R 50 50 1 1 P
+X Y 3 700 200 300 L 50 50 1 1 P
+X Y3 4 -700 -100 300 R 50 50 1 1 P
+X Y1 5 -700 100 300 R 50 50 1 1 P
+X Inh 6 -700 -300 300 R 50 50 1 1 I
+X VEE 7 700 -600 300 L 50 50 1 1 W
+X B 9 -700 -600 300 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_BAT54C(2)-diode_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_BAT54C(2)-diode_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue D 0 40 Y Y 1 F N
+F0 "D" 75 -250 50 H V L CNN
+F1 "DPA-1X-Rev.A-rescue_BAT54C(2)-diode_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 75 -325 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" 75 -400 50 H I L CNN
+F3 "" 100 -145 50 V I C CNN
+$FPLIST
+ SOT*23*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -175 0 -75 N
+P 2 0 1 0 0 -175 0 -75 N
+P 2 0 1 0 0 -75 0 -175 N
+P 2 0 1 0 0 -75 0 -175 N
+P 2 0 1 0 35 -160 35 -150 N
+P 2 0 1 0 50 -250 50 -300 N
+P 2 0 1 0 100 -175 100 -75 N
+P 2 0 1 0 100 -175 100 -75 N
+P 2 0 1 0 135 -160 135 -150 N
+P 3 0 1 0 35 -160 -35 -160 -35 -170 N
+P 3 0 1 0 135 -160 65 -160 65 -170 N
+P 4 0 1 0 35 -110 0 -160 -35 -110 35 -110 F
+P 4 0 1 0 100 -150 100 -200 0 -200 0 -150 N
+P 4 0 1 0 135 -110 100 -160 65 -110 135 -110 F
+X ~ 1 0 0 100 D 50 50 1 1 P
+X ~ 2 100 0 100 D 50 50 1 1 P
+X ~ 3 50 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_BAT54S(2)-diode_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_BAT54S(2)-diode_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue D 0 40 Y Y 1 F N
+F0 "D" 75 -250 50 H V L CNN
+F1 "DPA-1X-Rev.A-rescue_BAT54S(2)-diode_joe-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 75 -325 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" 75 -400 50 H I L CNN
+F3 "" 0 -270 50 V I C CNN
+$FPLIST
+ SOT*23*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -300 0 -200 N
+P 2 0 1 0 0 -250 0 -150 N
+P 2 0 1 0 0 -175 0 -75 N
+P 2 0 1 0 0 -175 0 -75 N
+P 2 0 1 0 0 -75 0 -175 N
+P 2 0 1 0 0 -75 0 -175 N
+P 2 0 1 0 35 -285 35 -275 N
+P 2 0 1 0 35 -160 35 -150 N
+P 3 0 1 0 35 -285 -35 -285 -35 -295 N
+P 3 0 1 0 35 -160 -35 -160 -35 -170 N
+P 4 0 1 0 35 -235 0 -285 -35 -235 35 -235 F
+P 4 0 1 0 35 -110 0 -160 -35 -110 35 -110 F
+X ~ 1 0 0 100 D 50 50 1 1 P
+X ~ 2 0 -400 100 U 50 50 1 1 P
+X ~ 3 100 -200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_BC847-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_BC847-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "DPA-1X-Rev.A-rescue_BC847-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 200 0 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_BD9G341EFJ-E2_SOIC8E-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_BD9G341EFJ-E2_SOIC8E-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 20 Y Y 1 F N
+F0 "U" 0 300 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_BD9G341EFJ-E2_SOIC8E-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -1525 60 H I C CNN
+F2 "" -100 -1575 60 H V C CNN
+F3 "" -500 -100 60 H V C CNN
+F4 "3A" 0 -1975 60 H I C CNN "Current"
+F5 "-" 0 -1750 60 H I C CNN "Voltage"
+F6 "Power" 0 -1900 60 H I C CNN "Power"
+F7 "BD9G341EFJ-E2" 0 225 60 H V C CNN "Part/Value"
+F8 "SOIC8E" 0 150 60 H V C CNN "Package"
+F9 "BD9G341EFJ-E2" 0 -1675 60 H I C CNN "Part Number"
+F10 "Tolerance" 0 -1825 60 H I C CNN "Tolerance"
+F11 "ROHM" 0 -1600 60 H I C CNN "Manufacturer"
+F12 "176-0455-2" 0 -2050 60 H I C CNN "ES P/N"
+DRAW
+S -300 100 300 -1000 0 1 0 N
+X LX 1 500 -300 200 L 60 60 1 1 I
+X GND 2 100 -1200 200 U 60 60 1 1 I
+X VC 3 -500 -600 200 R 60 60 1 1 I
+X FB 4 500 -800 200 L 60 60 1 1 I
+X RT 5 -500 -900 200 R 60 60 1 1 I
+X EN 6 -500 -300 200 R 60 60 1 1 I
+X BST 7 500 0 200 L 60 60 1 1 I
+X VCC 8 -500 0 200 R 60 60 1 1 I
+X GND TP -100 -1200 200 U 60 60 1 1 W
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPAE_100uF_16V-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPAE_100uF_16V-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 300 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPAE_100uF_16V-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -125 60 H I C CNN
+F2 "" -100 -200 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -575 60 H I C CNN "Current"
+F5 "16V" 0 150 60 H V C CNN "Voltage"
+F6 "Power" 0 -500 60 H I C CNN "Power"
+F7 "100uF" 0 225 60 H V C CNN "Part/Value"
+F8 "SMD" 0 -350 60 H I C CNN "Package"
+F9 "UWX1C101MCL1GB" 0 -200 60 H I C CNN "Part Number"
+F10 "20%" 0 -425 60 H I C CNN "Tolerance"
+F11 "NICHICON" 0 -275 60 H I C CNN "Manufacturer"
+F12 "289-0127-9" 0 100 30 H I C CNN "ES P/N"
+DRAW
+A 180 0 166 1549 -1549 0 1 0 N 30 70 30 -70
+P 2 0 1 0 -70 50 -30 50 N
+P 2 0 1 0 -50 0 -20 0 N
+P 2 0 1 0 -50 70 -50 30 N
+P 2 0 1 0 -15 70 -15 -70 N
+P 2 0 1 0 50 0 20 0 N
+X + + -100 0 50 R 60 60 1 1 I
+X - - 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPC_0.1uF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPC_0.1uF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 275 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPC_0.1uF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "50V" 0 125 60 H V C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "0.1uF" 0 200 60 H V C CNN "Part/Value"
+F8 "1608(EIA0603)" 0 -400 60 H I C CNN "Package"
+F9 "06035C104KAT2A" 0 -250 60 H I C CNN "Part Number"
+F10 "10%" 0 -475 60 H I C CNN "Tolerance"
+F11 "AVX" 0 -325 60 H I C CNN "Manufacturer"
+F12 "092-0090-2" 0 -100 30 H V C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -50 0 -10 0 N
+P 2 0 1 0 -10 50 -10 -50 N
+P 2 0 1 0 10 0 50 0 N
+P 2 0 1 0 10 50 10 -50 N
+X ~ 1 -100 0 50 R 60 60 1 1 I
+X ~ 2 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPC_0.1uF_50V_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPC_0.1uF_50V_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 275 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPC_0.1uF_50V_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "50V" 0 125 60 H V C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "0.1uF" 0 200 60 H V C CNN "Part/Value"
+F8 "1608(EIA0603)" 0 -400 60 H I C CNN "Package"
+F9 "06035C104KAT2A" 0 -250 60 H I C CNN "Part Number"
+F10 "10%" 0 -475 60 H I C CNN "Tolerance"
+F11 "AVX" 0 -325 60 H I C CNN "Manufacturer"
+F12 "092-0090-2" 0 -100 30 H V C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -50 0 -10 0 N
+P 2 0 1 0 -10 50 -10 -50 N
+P 2 0 1 0 10 0 50 0 N
+P 2 0 1 0 10 50 10 -50 N
+X ~ 1 -100 0 50 R 60 60 1 1 I
+X ~ 2 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPC_100uF_6V3_3216(EIA1206)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPC_100uF_6V3_3216(EIA1206)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 250 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPC_100uF_6V3_3216(EIA1206)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "http://www.es.co.th/Schemetic/PDF/MURATA-GR.PDF" 350 -700 60 H I C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "6.3V" 0 100 60 H V C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "100uF" 0 175 60 H V C CNN "Part/Value"
+F8 "3216(EIA1206)" 0 -400 60 H I C CNN "Package"
+F9 "GRM31CF50J107ZE01L" 0 -250 60 H I C CNN "Part Number"
+F10 "10%" 0 -475 60 H I C CNN "Tolerance"
+F11 "MURATA" 0 -325 60 H I C CNN "Manufacturer"
+F12 "160-0102-8" 0 -100 60 H I C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -10 0 -50 0 N
+P 2 0 1 0 -10 50 -10 -50 N
+P 2 0 1 0 10 50 10 -50 N
+P 2 0 1 0 50 0 10 0 N
+X ~ 1 -100 0 50 R 60 60 1 1 I
+X ~ 2 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPC_10uF_100V_5750(EIA2220)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPC_10uF_100V_5750(EIA2220)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 250 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPC_10uF_100V_5750(EIA2220)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "http://www.digikey.com/product-detail/en/C5750X7S2A106K230KB/445-13408-1-ND/3955074" 350 -700 60 H I C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "100V" 0 100 60 H V C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "10uF" 0 175 60 H V C CNN "Part/Value"
+F8 "5750(EIA2220)" 0 -400 60 H I C CNN "Package"
+F9 "C5750X7S2A106K230KB" 0 -250 60 H I C CNN "Part Number"
+F10 "10%" 0 -475 60 H I C CNN "Tolerance"
+F11 "TDK" 0 -325 60 H I C CNN "Manufacturer"
+F12 "-" 0 -100 60 H I C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -10 0 -50 0 N
+P 2 0 1 0 -10 50 -10 -50 N
+P 2 0 1 0 10 50 10 -50 N
+P 2 0 1 0 50 0 10 0 N
+X ~ 1 -100 0 50 R 60 60 1 1 I
+X ~ 2 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPC_1nF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPC_1nF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 250 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPC_1nF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "50V" 0 100 60 H V C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "1nF" 0 175 60 H V C CNN "Part/Value"
+F8 "1608(EIA0603)" 0 -400 60 H I C CNN "Package"
+F9 "06035C102KAT2A" 0 -250 60 H I C CNN "Part Number"
+F10 "10%" 0 -475 60 H I C CNN "Tolerance"
+F11 "MURATA" 0 -325 60 H I C CNN "Manufacturer"
+F12 "160-0156-1" 0 -100 60 H I C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -10 0 -50 0 N
+P 2 0 1 0 -10 50 -10 -50 N
+P 2 0 1 0 10 50 10 -50 N
+P 2 0 1 0 50 0 10 0 N
+X ~ 1 -100 0 50 R 60 60 1 1 I
+X ~ 2 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPC_1uF_16V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPC_1uF_16V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 250 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPC_1uF_16V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "16V" 0 100 60 H V C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "1uF" 0 175 60 H V C CNN "Part/Value"
+F8 "1608(EIA0603)" 0 -400 60 H I C CNN "Package"
+F9 "0603B105K160CT" 0 -250 60 H I C CNN "Part Number"
+F10 "10%" 0 -475 60 H I C CNN "Tolerance"
+F11 "WALSIN" 0 -325 60 H I C CNN "Manufacturer"
+F12 "328-0038-5" 0 -100 60 H I C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -10 0 -50 0 N
+P 2 0 1 0 -10 50 -10 -50 N
+P 2 0 1 0 10 50 10 -50 N
+P 2 0 1 0 50 0 10 0 N
+X ~ 1 -100 0 50 R 60 60 1 1 I
+X ~ 2 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPC_20pF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPC_20pF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 275 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPC_20pF_50V_1608(EIA0603)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "50V" 0 125 60 H V C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "20pF" 0 200 60 H V C CNN "Part/Value"
+F8 "1608(EIA0603)" 0 -400 60 H I C CNN "Package"
+F9 "CL10C200JB8NNNC" 0 -250 60 H I C CNN "Part Number"
+F10 "±5%" 0 -475 60 H I C CNN "Tolerance"
+F11 "Samsung" 0 -325 60 H I C CNN "Manufacturer"
+F12 "082-0155-8" 0 -700 60 H I C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -10 0 -50 0 N
+P 2 0 1 0 -10 50 -10 -50 N
+P 2 0 1 0 10 50 10 -50 N
+P 2 0 1 0 50 0 10 0 N
+X ~ 1 -100 0 50 R 60 60 1 1 I
+X ~ 2 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPC_6.8nF_50V_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPC_6.8nF_50V_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 175 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPC_6.8nF_50V_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "http://www.es.co.th/detail.asp?prod=32800252" 0 -775 60 H I C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "50V" 0 -700 60 H I C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "6n8F" 0 100 60 H V C CNN "Part/Value"
+F8 "1608(EIA0603)" 0 -400 60 H I C CNN "Package"
+F9 "0603B682K500CT" 0 -250 60 H I C CNN "Part Number"
+F10 "10%" 0 -475 60 H I C CNN "Tolerance"
+F11 "WALSIN" 0 -325 60 H I C CNN "Manufacturer"
+F12 "328-0025-2" 0 -100 60 H I C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -10 0 -50 0 N
+P 2 0 1 0 -10 50 -10 -50 N
+P 2 0 1 0 10 50 10 -50 N
+P 2 0 1 0 50 0 10 0 N
+X ~ 1 -100 0 50 R 60 60 1 1 I
+X ~ 2 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CAPPR_100uF_16V_S2.00mm-D5.00mmXH11.00mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_CAPPR_100uF_16V_S2.00mm-D5.00mmXH11.00mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue C 0 0 N N 1 F N
+F0 "C" 0 300 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CAPPR_100uF_16V_S2.00mm-D5.00mmXH11.00mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -125 60 H I C CNN
+F2 "" -100 -200 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "16V" 0 150 60 H V C CNN "Voltage"
+F5 "100uF" 0 225 60 H V C CNN "Part/Value"
+DRAW
+A 180 0 166 1549 -1549 0 1 0 N 30 70 30 -70
+P 2 0 1 0 -70 50 -30 50 N
+P 2 0 1 0 -50 0 -20 0 N
+P 2 0 1 0 -50 70 -50 30 N
+P 2 0 1 0 -15 70 -15 -70 N
+P 2 0 1 0 50 0 20 0 N
+X + + -100 0 50 R 60 60 1 1 I
+X - - 100 0 50 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_CSR8635_MODULE-NovaBox-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_CSR8635_MODULE-NovaBox-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 1000 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_CSR8635_MODULE-NovaBox-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 300 60 V V C CNN
+F2 "" 0 50 60 H V C CNN
+F3 "" 0 50 60 H V C CNN
+DRAW
+S -650 950 600 -1050 0 1 0 f
+X PIO6 1 -850 800 200 R 50 50 1 1 I
+X 1V8 10 -850 -100 200 R 50 50 1 1 I
+X PIO16 11 -850 -200 200 R 50 50 1 1 I
+X JACK_DET 12 -850 -300 200 R 50 50 1 1 I
+X LINE/MIC_PIO 13 -850 -400 200 R 50 50 1 1 I
+X PIO21 14 -850 -500 200 R 50 50 1 1 I
+X PIO18 15 -850 -600 200 R 50 50 1 1 I
+X SPI_PCM 16 -850 -700 200 R 50 50 1 1 I
+X GND 17 -350 -1250 200 U 50 50 1 1 I
+X USB_P 18 -250 -1250 200 U 50 50 1 1 I
+X USB_N 19 -150 -1250 200 U 50 50 1 1 I
+X PIO8 2 -850 700 200 R 50 50 1 1 I
+X RST 20 -50 -1250 200 U 50 50 1 1 I
+X MOSI 21 50 -1250 200 U 50 50 1 1 I
+X CLK 22 150 -1250 200 U 50 50 1 1 I
+X CS# 23 250 -1250 200 U 50 50 1 1 I
+X MISO 24 350 -1250 200 U 50 50 1 1 I
+X VBUS 25 800 -700 200 L 50 50 1 1 I
+X GND 26 800 -600 200 L 50 50 1 1 I
+X VBAT 27 800 -500 200 L 50 50 1 1 I
+X LED0 28 800 -400 200 L 50 50 1 1 I
+X LED2 29 800 -300 200 L 50 50 1 1 I
+X PIO1 3 -850 600 200 R 50 50 1 1 I
+X MFB 30 800 -200 200 L 50 50 1 1 I
+X MIC_BIAS 31 800 -100 200 L 50 50 1 1 I
+X LINE_BP 32 800 0 200 L 50 50 1 1 I
+X LINE_BN 33 800 100 200 L 50 50 1 1 I
+X MIC_AP 34 800 200 200 L 50 50 1 1 I
+X MIC_AN 35 800 300 200 L 50 50 1 1 I
+X SPK_RN 36 800 400 200 L 50 50 1 1 I
+X SPK_RP 37 800 500 200 L 50 50 1 1 I
+X SPK_LN 38 800 600 200 L 50 50 1 1 I
+X SPK_LP 39 800 700 200 L 50 50 1 1 I
+X PIO0 4 -850 500 200 R 50 50 1 1 I
+X GND 40 800 800 200 L 50 50 1 1 I
+X LED1 5 -850 400 200 R 50 50 1 1 I
+X AIO0 6 -850 300 200 R 50 50 1 1 I
+X PIO17 7 -850 200 200 R 50 50 1 1 I
+X PIO9 8 -850 100 200 R 50 50 1 1 I
+X PIO7 9 -850 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_Chassis-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_Chassis-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 5 -110 30 H I C CNN
+F1 "DPA-1X-Rev.A-rescue_Chassis-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -70 30 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -50 0 -75 -50 N
+P 2 0 1 0 0 0 -25 -50 N
+P 2 0 1 0 0 50 0 0 N
+P 2 0 1 0 50 0 -50 0 N
+P 2 0 1 0 50 0 25 -50 N
+X Chassis 1 0 50 0 D 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_DIOS_RB058L150TE25_SMA(DO-214AC)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_DIOS_RB058L150TE25_SMA(DO-214AC)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue D 0 0 N N 1 F N
+F0 "D" 0 175 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_DIOS_RB058L150TE25_SMA(DO-214AC)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -200 60 H I C CNN
+F2 "" -100 -150 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "3A" 0 -650 60 H I C CNN "Current"
+F5 "150V" 0 -425 60 H I C CNN "Voltage"
+F6 "Power" 0 -575 60 H I C CNN "Power"
+F7 "RB058L150TE25" 0 100 60 H V C CNN "Part/Value"
+F8 "SMA(DO-214AC)" 0 -125 60 H I C CNN "Package"
+F9 "RB058L150TE25" 0 -275 60 H I C CNN "Part Number"
+F10 "Tolerance" 0 -500 60 H I C CNN "Tolerance"
+F11 "ROHM" 0 -350 60 H I C CNN "Manufacturer"
+F12 "176-0495-8" 0 -725 60 H I C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -75 0 -100 0 N
+P 2 0 1 0 -75 0 -50 0 N
+P 2 0 1 0 50 0 70 0 N
+P 2 0 1 0 70 0 100 0 N
+P 3 0 1 0 -50 -65 -65 -65 -65 -50 N
+P 3 0 1 0 -50 65 -50 0 -50 -65 N
+P 3 0 1 0 -50 65 -35 65 -35 50 N
+P 4 0 1 0 -45 0 50 65 50 -65 -45 0 F
+X ~ A 150 0 50 L 60 60 1 1 I
+X ~ K -150 0 50 R 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_DipSwitch_EPS105AZ_PianoType-5Position-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_DipSwitch_EPS105AZ_PianoType-5Position-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue SW 0 40 Y Y 1 F N
+F0 "SW" 400 225 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_DipSwitch_EPS105AZ_PianoType-5Position-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 400 -600 60 H I C CNN
+F2 "" 150 -175 60 H V C CNN
+F3 "*" 425 -1200 60 H I C CNN
+F4 "*" 400 -1125 60 H I C CNN "Current"
+F5 "*" 400 -900 60 H I C CNN "Voltage"
+F6 "*" 400 -1050 60 H I C CNN "Power"
+F7 "EPS105AZ" 400 150 60 H V C CNN "Part/Value"
+F8 "DipSwitchPianoType" 400 -525 60 H I C CNN "Package"
+F9 "EPS105AZ" 400 -675 60 H I C CNN "Part Number"
+F10 "*" 400 -975 60 H I C CNN "Tolerance"
+F11 "*" 400 -750 60 H I C CNN "Manufacturer"
+F12 "*" 425 -825 60 H I C CNN "ES P/N"
+DRAW
+S 200 -500 600 100 0 0 0 N
+S 300 -425 500 -375 0 1 0 N
+S 300 -375 350 -425 0 1 0 F
+S 300 -325 500 -275 0 1 0 N
+S 300 -275 350 -325 0 1 0 F
+S 300 -225 500 -175 0 1 0 N
+S 300 -175 350 -225 0 1 0 F
+S 300 -125 500 -75 0 1 0 N
+S 300 -75 350 -125 0 1 0 F
+S 300 -25 500 25 0 1 0 N
+S 300 25 350 -25 0 1 0 F
+X ~ 1 0 0 200 R 60 60 1 1 I
+X ~ 10 800 0 200 L 60 60 1 1 I
+X ~ 2 0 -100 200 R 60 60 1 1 I
+X ~ 3 0 -200 200 R 60 60 1 1 I
+X ~ 4 0 -300 200 R 60 60 1 1 I
+X ~ 5 0 -400 200 R 60 60 1 1 I
+X ~ 6 800 -400 200 L 60 60 1 1 I
+X ~ 7 800 -300 200 L 60 60 1 1 I
+X ~ 8 800 -200 200 L 60 60 1 1 I
+X ~ 9 800 -100 200 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_FB-INDC_MPZ2012S101AT-CT_100Ohm_EIA2012-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_FB-INDC_MPZ2012S101AT-CT_100Ohm_EIA2012-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue FB 0 0 N N 1 F N
+F0 "FB" 200 150 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_FB-INDC_MPZ2012S101AT-CT_100Ohm_EIA2012-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 225 -75 60 H I C CNN
+F2 "" 125 -175 60 H V C CNN
+F3 "" 200 0 60 H V C CNN
+F4 "4A" 225 -600 60 H I C CNN "Current"
+F5 "Voltage" 225 -375 60 H I C CNN "Voltage"
+F6 "Power" 225 -525 60 H I C CNN "Power"
+F7 "100Ω" 200 75 60 H V C CNN "Part/Value"
+F8 "EIA2012" 225 -300 60 H I C CNN "Package"
+F9 "MPZ2012S101AT-CT" 225 -150 60 H I C CNN "Part Number"
+F10 "25%" 225 -450 60 H I C CNN "Tolerance"
+F11 "TDK" 225 -225 60 H I C CNN "Manufacturer"
+F12 "169-0080-2" 210 -675 60 H I C CNN "ES P/N"
+DRAW
+A 88 0 37 1 1799 0 1 0 N 125 0 50 0
+A 163 0 37 1 1799 0 1 0 N 200 0 125 0
+A 238 0 37 1 1799 0 1 0 N 275 0 200 0
+A 313 0 37 1 1799 0 1 0 N 350 0 275 0
+X ~ 1 0 0 50 R 40 40 1 1 I
+X ~ 2 400 0 50 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_G5Q-1A-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_G5Q-1A-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue K 0 40 Y Y 1 F N
+F0 "K" 550 350 50 H V L CNN
+F1 "DPA-1X-Rev.A-rescue_G5Q-1A-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 550 250 50 H V L CNN
+F2 "Relays_THT:Relay_SPST-NO_OMRON-G5Q" 550 150 50 H I L CNN
+F3 "" 1100 -300 50 H I C CNN
+$FPLIST
+ Relay?SPST?NO?OMRON?G5Q*
+$ENDFPLIST
+DRAW
+S -200 400 500 0 0 1 10 f
+S -125 275 125 125 0 1 10 N
+P 2 0 0 0 400 350 400 400 N
+P 4 0 0 0 400 350 400 300 375 325 400 350 N
+P 2 0 1 10 -100 125 100 275 N
+P 2 0 1 0 0 0 0 125 N
+P 2 0 1 0 0 400 0 275 N
+P 2 0 1 10 125 200 150 200 N
+P 2 0 1 10 175 200 200 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 225 200 250 200 N
+P 2 0 1 10 275 200 300 200 N
+P 2 0 1 10 325 200 350 200 N
+P 2 0 1 20 400 100 325 350 N
+P 2 0 1 0 400 100 400 0 N
+X ~ 1 0 -100 100 U 50 50 1 1 P
+X ~ 2 400 -100 100 U 50 50 1 1 P
+X ~ 3 400 500 100 D 50 50 1 1 P
+X ~ 5 0 500 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_INDC_33uH_CER1277B-330M-RB-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_INDC_33uH_CER1277B-330M-RB-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue L 0 0 N N 1 F N
+F0 "L" 200 150 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_INDC_33uH_CER1277B-330M-RB-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 225 -75 60 H I C CNN
+F2 "" 125 -175 60 H V C CNN
+F3 "" 200 0 60 H V C CNN
+F4 "4.75A" 225 -600 60 H I C CNN "Current"
+F5 "Voltage" 225 -375 60 H I C CNN "Voltage"
+F6 "Power" 225 -525 60 H I C CNN "Power"
+F7 "33uH" 200 75 60 H V C CNN "Part/Value"
+F8 "SMD" 225 -300 60 H I C CNN "Package"
+F9 "CER1277B-330M-RB" 225 -150 60 H I C CNN "Part Number"
+F10 "Tolerance" 225 -450 60 H I C CNN "Tolerance"
+F11 "SAGAMI_ELEC" 225 -225 60 H I C CNN "Manufacturer"
+F12 "638-0041-3" 210 -675 60 H I C CNN "ES P/N"
+DRAW
+A 88 0 37 1 1799 0 1 0 N 125 0 50 0
+A 163 0 37 1 1799 0 1 0 N 200 0 125 0
+A 238 0 37 1 1799 0 1 0 N 275 0 200 0
+A 313 0 37 1 1799 0 1 0 N 350 0 275 0
+X ~ 1 0 0 50 R 40 40 1 1 I
+X ~ 2 400 0 50 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_LED_RED_LG-192HRF-CT_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_LED_RED_LG-192HRF-CT_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue LED 0 0 N N 1 F N
+F0 "LED" 0 200 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_LED_RED_LG-192HRF-CT_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -150 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -625 60 H I C CNN "Current"
+F5 "Voltage" 0 -400 60 H I C CNN "Voltage"
+F6 "Power" 0 -550 60 H I C CNN "Power"
+F7 "RED" 0 125 60 H V C CNN "Part/Value"
+F8 "EIA0603" 0 -100 60 H V C CNN "Package"
+F9 "LG-192HRF-CT" 0 -250 60 H I C CNN "Part Number"
+F10 "Tolerance" 0 -475 60 H I C CNN "Tolerance"
+F11 "LIGITEK" 0 -325 60 H I C CNN "Manufacturer"
+F12 "302-0010-5" 0 -700 60 H I C CNN "ES P/N"
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 -50 0 N
+P 2 0 1 0 50 0 30 0 N
+P 4 0 1 0 -25 0 30 40 30 -40 -25 0 F
+P 4 0 1 0 0 30 -15 45 0 45 -30 75 N
+P 4 0 1 0 20 45 5 60 20 60 -10 90 N
+P 5 0 1 0 -30 75 -20 55 -20 65 -10 65 -30 75 N
+P 5 0 1 0 -10 90 0 70 0 80 10 80 -10 90 N
+X ~ A 100 0 50 L 60 60 1 1 I
+X ~ K -100 0 50 R 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_LM393-linear-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_LM393-linear-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 20 Y Y 2 F N
+F0 "U" 150 150 50 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_LM393-linear-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 250 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X ~ 1 300 0 100 L 50 50 1 1 C
+X _ 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X V- 4 -100 -300 150 U 50 50 1 1 W
+X V+ 8 -100 300 150 D 50 50 1 1 W
+X V- 4 -100 -300 150 U 50 50 2 1 W
+X + 5 -300 100 100 R 50 50 2 1 I
+X _ 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 C
+X V+ 8 -100 300 150 D 50 50 2 1 W
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_MCU-ATMEGA328-AU_TQFP-32-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_MCU-ATMEGA328-AU_TQFP-32-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 30 Y Y 1 F N
+F0 "U" 675 300 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_MCU-ATMEGA328-AU_TQFP-32-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 750 -2550 60 H I C CNN
+F2 "" 600 -2625 60 H V C CNN
+F3 "" 650 -600 60 H V C CNN
+F4 "Current" 750 -3100 60 H I C CNN "Current"
+F5 "1.8-5.5V" 750 -2875 60 H I C CNN "Voltage"
+F6 "Power" 750 -3025 60 H I C CNN "Power"
+F7 "ATMEGA328-AU" 675 225 60 H V C CNN "Part/Value"
+F8 "TQFP-32" 700 150 60 H V C CNN "Package"
+F9 "ATMEGA328-AU" 750 -2650 60 H I C CNN "Part Number"
+F10 "Tolerance" 750 -2950 60 H I C CNN "Tolerance"
+F11 "Atmel" 750 -2725 60 H I C CNN "Manufacturer"
+F12 "556-ATMEGA328-AU" 750 -2800 60 H I C CNN "Mouser P/N"
+DRAW
+S 200 100 1200 -2500 0 1 0 f
+X PD3 1 0 -1400 200 R 60 60 1 1 I
+X PD6 10 0 -1700 200 R 60 60 1 1 I
+X PD7 11 0 -1800 200 R 60 60 1 1 I
+X PB0 12 1400 0 200 L 60 60 1 1 I
+X PB1 13 1400 -100 200 L 60 60 1 1 I
+X SS/PB2 14 1400 -200 200 L 60 60 1 1 I
+X MOSI/PB3 15 1400 -300 200 L 60 60 1 1 I
+X MISO/PB4 16 1400 -400 200 L 60 60 1 1 I
+X SCK/PB5 17 1400 -500 200 L 60 60 1 1 I
+X AVCC 18 0 -2000 200 R 60 60 1 1 I
+X ADC6 19 0 -800 200 R 60 60 1 1 I
+X PD4 2 0 -1500 200 R 60 60 1 1 I
+X AREF 20 0 -2100 200 R 60 60 1 1 I
+X AGND 21 0 -2400 200 R 60 60 1 1 I
+X ADC7 22 0 -900 200 R 60 60 1 1 I
+X PC0 23 0 0 200 R 60 60 1 1 I
+X PC1 24 0 -100 200 R 60 60 1 1 I
+X PC2 25 0 -200 200 R 60 60 1 1 I
+X PC3 26 0 -300 200 R 60 60 1 1 I
+X PC4 27 0 -400 200 R 60 60 1 1 I
+X PC5 28 0 -500 200 R 60 60 1 1 I
+X PC6/RESET 29 0 -600 200 R 60 60 1 1 I
+X GND 3 1400 -2300 200 L 60 60 1 1 I
+X PD0/RXD 30 0 -1100 200 R 60 60 1 1 I
+X PD1/TXD 31 0 -1200 200 R 60 60 1 1 I
+X PD2 32 0 -1300 200 R 60 60 1 1 I
+X VCC 4 1400 -2000 200 L 60 60 1 1 I
+X GND 5 1400 -2400 200 L 60 60 1 1 I
+X VCC 6 1400 -1900 200 L 60 60 1 1 I
+X XTAL1 7 1400 -1100 200 L 60 60 1 1 I
+X XTAL2 8 1400 -1400 200 L 60 60 1 1 I
+X PD5 9 0 -1600 200 R 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_MT8870DC_PDIP18PIN_4-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_MT8870DC_PDIP18PIN_4-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 40 Y Y 1 F N
+F0 "U" 250 -1250 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_MT8870DC_PDIP18PIN_4-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 600 -1525 60 H I C CNN
+F2 "" 450 -275 60 H V C CNN
+F3 "" 600 -1100 60 H I C CNN
+F4 "MT8870DC" 425 -1325 60 H V C CNN "Part/Value"
+F5 "PDIP18P" 600 -1450 60 H I C CNN "Package"
+F6 "-" 600 -1600 60 H I C CNN "Part Number"
+F7 "-" 600 -1675 60 H I C CNN "Manufacturer"
+DRAW
+S 200 -1200 1000 100 0 0 0 f
+X IN+ 1 0 -500 200 R 60 60 1 1 I
+X TOE 10 600 -1400 200 U 60 60 1 1 I
+X Q1 11 1200 -1100 200 L 60 60 1 1 I
+X Q2 12 1200 -1000 200 L 60 60 1 1 I
+X Q3 13 1200 -900 200 L 60 60 1 1 I
+X Q4 14 1200 -800 200 L 60 60 1 1 I
+X STD 15 1200 -700 200 L 60 60 1 1 I
+X EST 16 1200 -300 200 L 60 60 1 1 I
+X ST 17 1200 0 200 L 60 60 1 1 I
+X VCC 18 450 300 200 D 60 60 1 1 I
+X IN- 2 0 0 200 R 60 60 1 1 I
+X GS 3 0 -300 200 R 60 60 1 1 I
+X VREF 4 0 -600 200 R 60 60 1 1 I
+X INH 5 1200 -500 200 L 60 60 1 1 I
+X PDN 6 1200 -400 200 L 60 60 1 1 I
+X OSC1 7 0 -1100 200 R 60 60 1 1 I
+X OSC2 8 0 -800 200 R 60 60 1 1 I
+X VSS 9 750 300 200 D 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_NCP1117-3.3_SOT223-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_NCP1117-3.3_SOT223-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_NCP1117-3.3_SOT223-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 125 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" 0 200 50 H I C CNN
+F3 "" 100 -250 50 H I C CNN
+$FPLIST
+ SOT?223*TabPin2*
+$ENDFPLIST
+DRAW
+S -200 -200 200 75 0 1 10 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VO 2 300 0 100 L 50 50 1 1 P
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_PC817-opto-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_PC817-opto-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 40 Y Y 1 F N
+F0 "U" -200 200 50 H V L CNN
+F1 "DPA-1X-Rev.A-rescue_PC817-opto-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 200 50 H V L CNN
+F2 "DIP-4" -200 -200 50 H V L CIN
+F3 "" 0 0 50 H V L CNN
+DRAW
+S -200 150 200 -150 0 1 10 f
+P 2 0 1 10 -125 -25 -75 -25 N
+P 2 0 1 0 100 25 175 100 N
+P 2 0 1 0 175 -100 100 -25 F
+P 2 0 1 0 175 -100 200 -100 N
+P 2 0 1 0 175 100 200 100 N
+P 3 0 1 0 -200 100 -100 100 -100 25 N
+P 3 0 1 0 -100 -25 -100 -100 -200 -100 N
+P 3 0 1 20 100 75 100 -75 100 -75 N
+P 4 0 1 10 -100 -25 -125 25 -75 25 -100 -25 F
+P 4 0 1 0 -20 10 1 30 1 10 31 40 N
+P 4 0 1 0 31 40 11 30 21 20 31 40 N
+P 5 0 1 0 120 -65 140 -45 160 -85 120 -65 120 -65 F
+P 7 0 1 0 -20 -30 1 -10 1 -30 31 0 11 -10 21 -20 31 0 N
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X ~ 3 300 -100 100 L 50 50 1 1 P
+X ~ 4 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_PINHEADER-Double_2X3PIN_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_PINHEADER-Double_2X3PIN_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue P 0 40 Y Y 1 F N
+F0 "P" 300 225 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_PINHEADER-Double_2X3PIN_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 300 -425 60 H I C CNN
+F2 "" 150 -175 60 H V C CNN
+F3 "" 200 0 60 H V C CNN
+F4 "Current" 300 -950 60 H I C CNN "Current"
+F5 "Voltage" 300 -725 60 H I C CNN "Voltage"
+F6 "Power" 300 -875 60 H I C CNN "Power"
+F7 "PHDS80G11/RH" 300 150 60 H V C CNN "Part/Value"
+F8 "PinHeaderDouble" 300 -350 60 H V C CNN "Package"
+F9 "PHDS80G11/RH" 300 -500 60 H I C CNN "Part Number"
+F10 "Tolerance" 300 -800 60 H I C CNN "Tolerance"
+F11 "GTK" 300 -575 60 H I C CNN "Manufacturer"
+F12 "007-0416-1" 325 -650 60 H I C CNN "ES P/N"
+DRAW
+S 200 -300 400 100 0 0 0 N
+X ~ 1 0 0 200 R 60 60 1 1 P
+X ~ 2 600 0 200 L 60 60 1 1 P
+X ~ 3 0 -100 200 R 60 60 1 1 P
+X ~ 4 600 -100 200 L 60 60 1 1 P
+X ~ 5 0 -200 200 R 60 60 1 1 P
+X ~ 6 600 -200 200 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_POT-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_POT-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue RV 0 40 N N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "DPA-1X-Rev.A-rescue_POT-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 3 0 1 0 45 0 90 20 90 -20 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_POT_TRIM-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_POT_TRIM-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue RV 0 40 N N 1 F N
+F0 "RV" -175 0 50 V V C CNN
+F1 "DPA-1X-Rev.A-rescue_POT_TRIM-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" -100 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Potentiometer*
+$ENDFPLIST
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 60 30 60 -30 N
+P 2 0 1 0 100 0 60 0 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_100K_1_10W_1%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_100K_1_10W_1%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 225 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_100K_1_10W_1%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -75 60 H I C CNN
+F2 "" -75 -125 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -525 60 H I C CNN "Current"
+F5 "Voltage" 0 -375 60 H I C CNN "Voltage"
+F6 "1/10W" 0 -450 60 H I C CNN "Power"
+F7 "100K" 0 150 60 H V C CNN "Part/Value"
+F8 "EIA0603" 0 -300 60 H I C CNN "Package"
+F9 "0603-1/10W1%1K" 0 -150 60 H I C CNN "Part Number"
+F10 "1%" 0 75 60 H V C CNN "Tolerance"
+F11 "Royalohm" 0 -225 60 H I C CNN "Manufacturer"
+F12 "ES P/N" 0 -625 60 H I C CNN "ES P/N"
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 60 60 1 1 I
+X ~ 2 100 0 25 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_100K_1_10W_5%_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_100K_1_10W_5%_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 150 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_100K_1_10W_5%_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -75 60 H I C CNN
+F2 "" -75 -125 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -600 60 H I C CNN "Current"
+F5 "Voltage" 0 -375 60 H I C CNN "Voltage"
+F6 "1/10W" 0 -525 60 H I C CNN "Power"
+F7 "100K" 0 75 60 H V C CNN "Part/Value"
+F8 "EIA0603" 0 -300 60 H I C CNN "Package"
+F9 "Part Number" 0 -150 60 H I C CNN "Part Number"
+F10 "5%" 0 -450 60 H I C CNN "Tolerance"
+F11 "Manufacturer" 0 -225 60 H I C CNN "Manufacturer"
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 60 60 1 1 I
+X ~ 2 100 0 25 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_10E_1_4W_5%_EIA1206-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_10E_1_4W_5%_EIA1206-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 300 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_10E_1_4W_5%_EIA1206-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -75 60 H I C CNN
+F2 "" -75 -125 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -450 60 H I C CNN "Current"
+F5 "Voltage" 0 -300 60 H I C CNN "Voltage"
+F6 "1/4W" 0 75 60 H V C CNN "Power"
+F7 "10E" 0 225 60 H V C CNN "Part/Value"
+F8 "1206" 0 150 60 H V C CNN "Package"
+F9 "ERJ-8ENF10R0" 0 -150 60 H I C CNN "Part Number"
+F10 "5%" 0 -375 60 H I C CNN "Tolerance"
+F11 "Royalohm" 0 -225 60 H I C CNN "Manufacturer"
+F12 "ES P/N" 0 -550 60 H I C CNN "ES P/N"
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 60 60 1 1 I
+X ~ 2 100 0 25 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_10K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_10K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 120 50 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_10K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -65 50 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "http://www.royalohm.com/pdf/general.pdf" 135 -130 50 H I C CNN
+F4 "1/10W" 0 -490 50 H I C CNN "Power"
+F5 "10K" 0 60 50 H V C CNN "Comment"
+F6 "50V" 0 -555 50 H I C CNN "Voltage"
+F7 "410603103FWA" -20 -205 50 H I C CNN "Part Code"
+F8 "1%" 0 -620 50 H I C CNN "Tolerance"
+F9 "1608(EIA0603)" 0 -420 50 H I C CNN "Package"
+F10 "RESC-10K_1/10W_1%" 0 -285 50 H I C CNN "Order Part Number"
+F11 "Royalohm" 5 -350 50 H I C CNN "Mrf."
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 50 50 1 1 I
+X ~ 2 100 0 25 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_1K_1_10W_5%_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_1K_1_10W_5%_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 150 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_1K_1_10W_5%_EIA0603-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -75 60 H I C CNN
+F2 "" -75 -125 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -600 60 H I C CNN "Current"
+F5 "Voltage" 0 -375 60 H I C CNN "Voltage"
+F6 "1/10W" 0 -525 60 H I C CNN "Power"
+F7 "1K" 0 75 60 H V C CNN "Part/Value"
+F8 "EIA0603" 0 -300 60 H I C CNN "Package"
+F9 "0603-1/10W5%1K" 0 -150 60 H I C CNN "Part Number"
+F10 "5%" 0 -450 60 H I C CNN "Tolerance"
+F11 "Royalohm" 0 -225 60 H I C CNN "Manufacturer"
+F12 "150-1688-1" 0 -700 60 H I C CNN "ES P/N"
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 60 60 1 1 I
+X ~ 2 100 0 25 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_1K_1_10W_5%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_1K_1_10W_5%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 150 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_1K_1_10W_5%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -75 60 H I C CNN
+F2 "" -75 -125 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -600 60 H I C CNN "Current"
+F5 "Voltage" 0 -375 60 H I C CNN "Voltage"
+F6 "1/10W" 0 -525 60 H I C CNN "Power"
+F7 "1K" 0 75 60 H V C CNN "Part/Value"
+F8 "EIA0603" 0 -300 60 H I C CNN "Package"
+F9 "0603-1/10W5%1K" 0 -150 60 H I C CNN "Part Number"
+F10 "5%" 0 -450 60 H I C CNN "Tolerance"
+F11 "Royalohm" 0 -225 60 H I C CNN "Manufacturer"
+F12 "150-1688-1" 0 -700 60 H I C CNN "ES P/N"
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 60 60 1 1 I
+X ~ 2 100 0 25 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_20K_1_10W_1%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_20K_1_10W_1%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 225 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_20K_1_10W_1%_EIA0603-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -75 60 H I C CNN
+F2 "" -75 -125 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -525 60 H I C CNN "Current"
+F5 "Voltage" 0 -375 60 H I C CNN "Voltage"
+F6 "1/10W" 0 -450 60 H I C CNN "Power"
+F7 "20K" 0 150 60 H V C CNN "Part/Value"
+F8 "EIA0603" 0 -300 60 H I C CNN "Package"
+F9 "0603-1/10W1%1K" 0 -150 60 H I C CNN "Part Number"
+F10 "1%" 0 75 60 H V C CNN "Tolerance"
+F11 "Royalohm" 0 -225 60 H I C CNN "Manufacturer"
+F12 "ES P/N" 0 -625 60 H I C CNN "ES P/N"
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 60 60 1 1 I
+X ~ 2 100 0 25 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_3K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_3K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 120 50 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_3K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -65 50 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "http://www.royalohm.com/pdf/general.pdf" 145 -135 50 H I C CNN
+F4 "1/10W" 10 -495 50 H I C CNN "Power"
+F5 "3K" 0 60 50 H V C CNN "Comment"
+F6 "50V" 10 -560 50 H I C CNN "Voltage"
+F7 "400603302FWA" -10 -210 50 H I C CNN "Part Code"
+F8 "1%" 10 -625 50 H I C CNN "Tolerance"
+F9 "1608(EIA0603)" 10 -425 50 H I C CNN "Package"
+F10 "RESC-3K_1/10W_1%" 10 -290 50 H I C CNN "Order Part Number"
+F11 "Royalohm" 15 -355 50 H I C CNN "Mrf."
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 50 50 1 1 I
+X ~ 2 100 0 25 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_47K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_47K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 10 170 50 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_47K_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -65 50 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "http://www.royalohm.com/pdf/general.pdf" 130 -140 50 H I C CNN
+F4 "1/10W" -5 -500 50 H I C CNN "Power"
+F5 "47K" 0 110 50 H V C CNN "Comment"
+F6 "50V" -5 -565 50 H I C CNN "Voltage"
+F7 "400603473FWA" -25 -215 50 H I C CNN "Part Code"
+F8 "1%" 0 50 50 H V C CNN "Tolerance"
+F9 "1608(EIA0603)" -5 -430 50 H I C CNN "Package"
+F10 "RESC-47K_1/10W_1%" -5 -295 50 H I C CNN "Order Part Number"
+F11 "Royalohm" 0 -360 50 H I C CNN "Mrf."
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 50 50 1 1 I
+X ~ 2 100 0 25 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESC_750E_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESC_750E_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue R 0 0 N N 1 F N
+F0 "R" 0 120 50 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESC_750E_1_10W_1%_1608(EIA0603)-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -65 50 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "http://www.royalohm.com/pdf/general.pdf" 145 -135 50 H I C CNN
+F4 "1/10W" 10 -495 50 H I C CNN "Power"
+F5 "750E" 0 60 50 H V C CNN "Comment"
+F6 "50V" 10 -560 50 H I C CNN "Voltage"
+F7 "-" -10 -210 50 H I C CNN "Part Code"
+F8 "1%" 10 -625 50 H I C CNN "Tolerance"
+F9 "1608(EIA0603)" 10 -425 50 H I C CNN "Package"
+F10 "RESC-750E_1/10W_1%" 10 -290 50 H I C CNN "Order Part Number"
+F11 "Royalohm" 15 -355 50 H I C CNN "Mrf."
+DRAW
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 50 50 1 1 I
+X ~ 2 100 0 25 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_RESN_10K_5%_RN8P4R10-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_RESN_10K_5%_RN8P4R10-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue RN 0 1 Y N 1 F N
+F0 "RN" 200 175 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_RESN_10K_5%_RN8P4R10-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 200 -400 60 H I C CNN
+F2 "" 125 -500 60 H V C CNN
+F3 "" 200 -300 60 H V C CNN
+F4 "Current" 200 -925 60 H I C CNN "Current"
+F5 "Voltage" 200 -700 60 H I C CNN "Voltage"
+F6 "Power" 200 -775 60 H I C CNN "Power"
+F7 "10K" 200 100 60 H V C CNN "Part/Value"
+F8 "CommonType" 200 -625 60 H I C CNN "Package"
+F9 "RN8P4R10" 200 -475 60 H I C CNN "Part Number"
+F10 "5%" 200 -850 60 H I C CNN "Tolerance"
+F11 "TAIWAN" 200 -550 60 H I C CNN "Manufacturer"
+F12 "235-47600-1" 200 -1000 60 H I C CNN "WT P/N"
+DRAW
+S 100 50 300 -350 0 1 0 N
+P 10 0 1 0 100 -300 140 -300 150 -280 170 -320 190 -280 210 -320 230 -280 250 -320 260 -300 300 -300 N
+P 10 0 1 0 100 -200 140 -200 150 -180 170 -220 190 -180 210 -220 230 -180 250 -220 260 -200 300 -200 N
+P 10 0 1 0 100 -100 140 -100 150 -80 170 -120 190 -80 210 -120 230 -80 250 -120 260 -100 300 -100 N
+P 10 0 1 0 100 0 140 0 150 20 170 -20 190 20 210 -20 230 20 250 -20 260 0 300 0 N
+X ~ 1 0 0 100 R 60 60 1 1 I
+X ~ 2 0 -100 100 R 60 60 1 1 I
+X ~ 3 0 -200 100 R 60 60 1 1 I
+X ~ 4 0 -300 100 R 60 60 1 1 I
+X ~ 5 400 -300 100 L 60 60 1 1 I
+X ~ 6 400 -200 100 L 60 60 1 1 I
+X ~ 7 400 -100 100 L 60 60 1 1 I
+X ~ 8 400 0 100 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_TEST-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_TEST-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue TP 0 40 N N 1 F N
+F0 "TP" 0 300 50 H V C BNN
+F1 "DPA-1X-Rev.A-rescue_TEST-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 200 -50 150 0 100 50 150 0 200 0 200 N
+X ~ 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_TPA3116D2-user-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF DPA-1X-Rev.A-rescue_TPA3116D2-user-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue U 0 40 Y Y 1 F N
+F0 "U" -450 1150 60 H V L CNN
+F1 "DPA-1X-Rev.A-rescue_TPA3116D2-user-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" -450 -1600 60 H V L CNN
+F2 "" 150 50 60 H I C CNN
+F3 "" 150 50 60 H I C CNN
+DRAW
+S -450 1100 450 -1550 0 1 0 f
+X MODSEL 1 -650 1050 200 R 50 50 1 1 I
+X LINP 10 -650 -550 200 R 50 50 1 1 I
+X LINN 11 -650 -700 200 R 50 50 1 1 I
+X MUTE 12 -650 -900 200 R 50 50 1 1 I
+X AM2 13 -650 -1100 200 R 50 50 1 1 I
+X AM1 14 -650 -1200 200 R 50 50 1 1 I
+X AM0 15 -650 -1300 200 R 50 50 1 1 I
+X SYNC 16 -650 -1500 200 R 50 50 1 1 B
+X AVCC 17 650 -850 200 L 50 50 1 1 W
+X PVCC 18 650 -700 200 L 50 50 1 1 W
+X PVCC 19 650 -600 200 L 50 50 1 1 W
+X SDZ 2 -650 950 200 R 50 50 1 1 I
+X BSNL 20 650 -150 200 L 50 50 1 1 I
+X OUTNL 21 650 -50 200 L 50 50 1 1 w
+X GND 22 650 -1200 200 L 50 50 1 1 W
+X OUTPL 23 650 100 200 L 50 50 1 1 w
+X BSPL 24 650 200 200 L 50 50 1 1 P
+X GND 25 650 -1300 200 L 50 50 1 1 W
+X BSNR 26 650 700 200 L 50 50 1 1 P
+X OUTNR 27 650 800 200 L 50 50 1 1 w
+X GND 28 650 -1400 200 L 50 50 1 1 W
+X OUTPR 29 650 950 200 L 50 50 1 1 w
+X FAULTZ 3 -650 850 200 R 50 50 1 1 O
+X BSPR 30 650 1050 200 L 50 50 1 1 P
+X PVCC 31 650 -450 200 L 50 50 1 1 W
+X PVCC 32 650 -350 200 L 50 50 1 1 W
+X PAD 33 650 -1500 200 L 50 50 1 1 W
+X RINP 4 -650 -150 200 R 50 50 1 1 I
+X RINN 5 -650 -300 200 R 50 50 1 1 I
+X PLIMIT 6 -650 550 200 R 50 50 1 1 I
+X GVDD 7 -650 650 200 R 50 50 1 1 w
+X GAIN/SLV 8 -650 450 200 R 50 50 1 1 I
+X GND 9 -650 350 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_TackSW_TD-06XB-Z-TR_SMD-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_TackSW_TD-06XB-Z-TR_SMD-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue SW 0 1 Y N 1 F N
+F0 "SW" 0 190 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_TackSW_TD-06XB-Z-TR_SMD-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -75 60 H I C CNN
+F2 "" -100 -250 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -550 60 H I C CNN "Current"
+F5 "Voltage" 0 -475 60 H I C CNN "Voltage"
+F6 "Power" 0 -625 60 H I C CNN "Power"
+F7 "TD-06XB-Z-TR" 0 120 60 H V C CNN "Part/Value"
+F8 "TactSwitch" 0 -375 60 H I C CNN "Package"
+F9 "TD-06XB-Z-TR" 0 -225 60 H I C CNN "Part Number"
+F10 "Tolerance" 0 -700 60 H I C CNN "Tolerance"
+F11 "WEALTH_METAL" 0 -300 60 H I C CNN "Manufacturer"
+F12 "171-0079-7" 0 -150 60 H I C CNN "ES P/N"
+DRAW
+C -50 0 20 0 1 0 N
+C 50 0 20 0 1 0 N
+P 10 0 1 0 -70 40 70 40 70 50 30 50 20 50 20 80 -20 80 -20 50 -70 50 -70 40 F
+X ~ 1 -150 0 80 R 60 60 1 1 P
+X ~ 2 150 0 80 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_WaferConector_3PIN_Straight_2.54mm-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_WaferConector_3PIN_Straight_2.54mm-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue P 0 40 Y Y 1 F N
+F0 "P" -300 250 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_WaferConector_3PIN_Straight_2.54mm-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" -300 -450 60 H I C CNN
+F2 "" -450 -175 60 H V C CNN
+F3 "" -400 0 60 H V C CNN
+F4 "Current" -300 -975 60 H I C CNN "Current"
+F5 "Voltage" -300 -750 60 H I C CNN "Voltage"
+F6 "Power" -300 -900 60 H I C CNN "Power"
+F7 "Wafer3PIN" -300 175 60 H V C CNN "Part/Value"
+F8 "WaferStraight" -300 -675 60 H I C CNN "Package"
+F9 "600103ST" -300 -525 60 H I C CNN "Part Number"
+F10 "Tolerance" -300 -825 60 H I C CNN "Tolerance"
+F11 "GTK " -300 -600 60 H I C CNN "Manufacturer"
+F12 "007-1088-1" -300 -350 60 H V C CNN "ES P/N"
+DRAW
+S -400 -300 -200 100 0 0 0 N
+P 4 0 1 0 -200 50 -250 50 -250 -250 -200 -250 N
+X ~ 1 0 0 200 L 60 60 1 1 I
+X ~ 2 0 -100 200 L 60 60 1 1 I
+X ~ 3 0 -200 200 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_WaferConector_4PIN_Straight_2.54mm-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_WaferConector_4PIN_Straight_2.54mm-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue P 0 40 Y Y 1 F N
+F0 "P" -300 215 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_WaferConector_4PIN_Straight_2.54mm-DPA_NanoPi_M1_1a-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" -300 -650 60 H I C CNN
+F2 "" -450 -175 60 H V C CNN
+F3 "" -400 0 60 H V C CNN
+F4 "Current" -300 -1125 60 H I C CNN "Current"
+F5 "Voltage" -300 -900 60 H I C CNN "Voltage"
+F6 "Power" -300 -1050 60 H I C CNN "Power"
+F7 "600104ST" -300 140 60 H V C CNN "Part/Value"
+F8 "WaferStraight" -300 -450 60 H V C CNN "Package"
+F9 "600104ST" -300 -750 60 H I C CNN "Part Number"
+F10 "Tolerance" -300 -975 60 H I C CNN "Tolerance"
+F11 "GTK " -300 -850 60 H I C CNN "Manufacturer"
+F12 "007-1158-4" -300 -550 60 H I C CNN "ES P/N"
+DRAW
+S -400 -400 -200 100 0 0 0 N
+P 4 0 1 0 -200 50 -250 50 -250 -350 -200 -350 N
+X ~ 1 0 0 200 L 60 60 1 1 I
+X ~ 2 0 -100 200 L 60 60 1 1 I
+X ~ 3 0 -200 200 L 60 60 1 1 I
+X ~ 4 0 -300 200 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_WaferConector_5PIN_Straight_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_WaferConector_5PIN_Straight_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue P 0 40 Y Y 1 F N
+F0 "P" -300 215 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_WaferConector_5PIN_Straight_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" -300 -850 60 H I C CNN
+F2 "" -450 -175 60 H V C CNN
+F3 "" -400 0 60 H V C CNN
+F4 "Current" -300 -1325 60 H I C CNN "Current"
+F5 "Voltage" -300 -1100 60 H I C CNN "Voltage"
+F6 "Power" -300 -1250 60 H I C CNN "Power"
+F7 "600105ST" -300 140 60 H V C CNN "Part/Value"
+F8 "WaferStraight" -300 -650 60 H V C CNN "Package"
+F9 "600105ST" -300 -950 60 H I C CNN "Part Number"
+F10 "Tolerance" -300 -1175 60 H I C CNN "Tolerance"
+F11 "GTK " -300 -1050 60 H I C CNN "Manufacturer"
+F12 "007-1152-6" -300 -750 60 H I C CNN "ES P/N"
+DRAW
+S -200 -500 -400 100 0 1 0 N
+P 4 0 1 0 -200 50 -250 50 -250 -450 -200 -450 N
+X ~ 1 0 0 200 L 60 60 1 1 P
+X ~ 2 0 -100 200 L 60 60 1 1 P
+X ~ 3 0 -200 200 L 60 60 1 1 P
+X ~ 4 0 -300 200 L 60 60 1 1 P
+X ~ 5 0 -400 200 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_WaferConector_6PIN_Straight_3.96mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_WaferConector_6PIN_Straight_3.96mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue P 0 40 Y Y 1 F N
+F0 "P" -300 215 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_WaferConector_6PIN_Straight_3.96mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" -300 -1000 60 H I C CNN
+F2 "" -450 -175 60 H V C CNN
+F3 "" -400 0 60 H V C CNN
+F4 "Current" -300 -1475 60 H I C CNN "Current"
+F5 "Voltage" -300 -1250 60 H I C CNN "Voltage"
+F6 "Power" -300 -1400 60 H I C CNN "Power"
+F7 "112006ST" -300 140 60 H V C CNN "Part/Value"
+F8 "WaferStraight" -300 -800 60 H V C CNN "Package"
+F9 "112006ST" -300 -1100 60 H I C CNN "Part Number"
+F10 "Tolerance" -300 -1325 60 H I C CNN "Tolerance"
+F11 "GTK " -300 -1200 60 H I C CNN "Manufacturer"
+F12 "0007-0937-7" -300 -900 60 H I C CNN "ES P/N"
+DRAW
+S -200 -600 -400 100 0 1 0 N
+P 4 0 1 0 -200 50 -250 50 -250 -550 -200 -550 N
+X ~ 1 0 0 200 L 60 60 1 1 P
+X ~ 2 0 -100 200 L 60 60 1 1 P
+X ~ 3 0 -200 200 L 60 60 1 1 P
+X ~ 4 0 -300 200 L 60 60 1 1 P
+X ~ 5 0 -400 200 L 60 60 1 1 P
+X ~ 6 0 -500 200 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_WaferStraight_600102ST_2X1P_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_WaferStraight_600102ST_2X1P_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue P 0 40 Y Y 1 F N
+F0 "P" 300 225 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_WaferStraight_600102ST_2X1P_2.54mm-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 300 -250 60 H I C CNN
+F2 "" 150 -200 60 H V C CNN
+F3 "" 200 0 60 H V C CNN
+F4 "------------" 300 -775 60 H I C CNN "Current"
+F5 "------------" 300 -550 60 H I C CNN "Voltage"
+F6 "------------" 300 -700 60 H I C CNN "Power"
+F7 "WaferStraight" 300 150 60 H V C CNN "Part/Value"
+F8 "WaferStraight" 300 -475 60 H I C CNN "Package"
+F9 "66CKSPK2P---" 300 -325 60 H I C CNN "Part Code"
+F10 "------------" 300 -625 60 H I C CNN "Tolerance"
+F11 "------------" 300 -400 60 H I C CNN "Manufacturer"
+DRAW
+S 200 -200 400 100 0 0 0 N
+P 4 0 1 0 200 -150 250 -150 250 50 200 50 N
+X ~ 1 0 -100 200 R 60 60 1 1 I
+X ~ 2 0 0 200 R 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_XFMR_EV24-1.0-02-10M-T1130R-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_XFMR_EV24-1.0-02-10M-T1130R-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue L 0 40 Y Y 1 F N
+F0 "L" 0 450 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_XFMR_EV24-1.0-02-10M-T1130R-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 75 -375 60 H I C CNN
+F2 "" -75 -200 60 H V C CNN
+F3 "" -300 225 60 H I C CNN
+F4 "EV24-1,0-02-10M" 0 375 60 H V C CNN "Part/Value"
+F5 "XFMR_EV24-1.0-02-10M-T1130R" 75 -600 60 H I C CNN "Package"
+F6 "EV24-1.0-02-10M-T1130R" 75 -450 60 H I C CNN "Part Number"
+DRAW
+A -150 -100 50 1 1799 0 1 0 N -100 -100 -200 -100
+A -150 100 50 -1799 -1 0 1 0 N -200 100 -100 100
+A -50 -100 50 1 1799 0 1 0 N 0 -100 -100 -100
+A -50 100 50 -1799 -1 0 1 0 N -100 100 0 100
+A 50 -100 50 1 1799 0 1 0 N 100 -100 0 -100
+A 50 100 50 -1799 -1 0 1 0 N 0 100 100 100
+A 150 -100 50 1 1799 0 1 0 N 200 -100 100 -100
+A 150 100 50 -1799 -1 0 1 0 N 100 100 200 100
+C -150 -100 25 0 1 0 F
+C -150 100 25 0 1 0 F
+P 2 0 1 0 -200 25 200 25 N
+P 2 0 1 0 200 -25 -200 -25 N
+X ~ 1 -200 300 200 D 60 60 1 1 I
+X ~ 2 200 300 200 D 60 60 1 1 I
+X ~ 3 200 -300 200 U 60 60 1 1 I
+X ~ 4 -200 -300 200 U 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_XTAL_16MHz_SMD(8X4.5mm)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_XTAL_16MHz_SMD(8X4.5mm)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue X 0 0 N N 1 F N
+F0 "X" 0 190 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_XTAL_16MHz_SMD(8X4.5mm)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -175 60 H I C CNN
+F2 "" -100 -350 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Current" 0 -650 60 H I C CNN "Current"
+F5 "Voltage" 0 -575 60 H I C CNN "Voltage"
+F6 "Power" 0 -725 60 H I C CNN "Power"
+F7 "16MHz" 0 120 60 H V C CNN "Part/Value"
+F8 "SMD(8x4.5mm)" 0 -475 60 H I C CNN "Package"
+F9 "NX8045GB-16M-STD-CSF-4" 0 -325 60 H I C CNN "Part Number"
+F10 "Tolerance" 0 -800 60 H I C CNN "Tolerance"
+F11 "NDK" 0 -400 60 H I C CNN "Manufacturer"
+F12 "833-0009-4" 0 -250 60 H I C CNN "ES P/N"
+DRAW
+S -25 50 25 -50 0 1 0 N
+P 2 0 1 0 -40 35 -40 -35 N
+P 2 0 1 0 40 35 40 -35 N
+X ~ 1 -100 0 60 R 60 60 1 1 I
+X ~ 2 100 0 60 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# DPA-1X-Rev.A-rescue_ZNR-V14820U_(REDIAL-S8.50MM-W15.00MMXL17.00MM)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue
+#
+DEF ~DPA-1X-Rev.A-rescue_ZNR-V14820U_(REDIAL-S8.50MM-W15.00MMXL17.00MM)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue ZR 0 0 N N 1 F N
+F0 "ZR" 0 145 60 H V C CNN
+F1 "DPA-1X-Rev.A-rescue_ZNR-V14820U_(REDIAL-S8.50MM-W15.00MMXL17.00MM)-DPA-1X_Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue-DPA-1X-Rev.A-rescue" 0 -125 60 H I C CNN
+F2 "" -75 -175 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "V14820U" 0 70 60 H V C CNN "Part/Value"
+F5 "(REDIAL-S8.50MM-W15.00MMXL17.00MM)" 0 -200 60 H I C CNN "Package"
+DRAW
+P 3 0 1 0 100 35 -50 -35 -100 -35 N
+P 10 0 1 0 -75 0 -60 0 -50 20 -30 -20 -10 20 10 -20 30 20 50 -20 60 0 75 0 N
+X ~ 1 -100 0 25 R 60 60 1 1 I
+X ~ 2 100 0 25 L 60 60 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Device_D_Zener_Small_ALT
+#
+DEF Device_D_Zener_Small_ALT D 0 10 N N 1 F N
+F0 "D" 0 90 50 H V C CNN
+F1 "Device_D_Zener_Small_ALT" 0 -90 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 30 0 -30 0 N
+P 3 0 1 0 -10 40 -30 40 -30 -40 N
+P 4 0 1 0 30 40 -30 0 30 -40 30 40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L_Core_Ferrite
+#
+DEF Device_L_Core_Ferrite L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "Device_L_Core_Ferrite" 110 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+P 2 0 1 0 40 -110 40 -90 N
+P 2 0 1 0 40 -70 40 -50 N
+P 2 0 1 0 40 -30 40 -10 N
+P 2 0 1 0 40 10 40 30 N
+P 2 0 1 0 40 50 40 70 N
+P 2 0 1 0 40 90 40 110 N
+P 2 0 1 0 60 -90 60 -110 N
+P 2 0 1 0 60 -50 60 -70 N
+P 2 0 1 0 60 -10 60 -30 N
+P 2 0 1 0 60 30 60 10 N
+P 2 0 1 0 60 70 60 50 N
+P 2 0 1 0 60 110 60 90 N
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Resonator
+#
+DEF Device_Resonator Y 0 40 Y N 1 F N
+F0 "Y" 0 225 50 H V C CNN
+F1 "Device_Resonator" 0 150 50 H V C CNN
+F2 "" -25 0 50 H I C CNN
+F3 "" -25 0 50 H I C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
+DRAW
+C -95 0 10 0 1 0 F
+C 0 -150 10 0 1 0 F
+C 95 0 10 0 1 0 F
+S -135 -125 -55 -135 0 1 0 F
+S -135 -95 -55 -105 0 1 0 F
+S -40 80 40 -80 0 1 12 N
+S 55 -125 135 -135 0 1 0 F
+S 55 -95 135 -105 0 1 0 F
+P 2 0 1 0 -95 -95 -95 0 N
+P 2 0 1 0 -75 0 -125 0 N
+P 2 0 1 20 -70 -50 -70 50 N
+P 2 0 1 20 70 -50 70 50 N
+P 2 0 1 0 75 0 100 0 N
+P 2 0 1 0 95 0 95 -100 N
+P 4 0 1 0 95 -130 95 -150 -95 -150 -95 -130 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 0 -200 50 U 50 50 1 1 P
+X 3 3 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+24V
+#
+DEF power_+24V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+24V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +24V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5VA
+#
+DEF power_+5VA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5VA" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5VA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDA
+#
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

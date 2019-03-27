@@ -1,0 +1,20 @@
+Dual-In-Line Packages ................................... DIP + Lead Span + W Lead Width + P Pin Pitch + L Body Length + H Component Height + Q Pin Qty
+Example: DIP762W52P254L1905H508Q14B 
+
+DIP-8_9.65x6.60x5.08mm_W7.62mm_P2.54mm
+
+DIP762W56P254L965H508Q8B
+Dual-In-Line Package: Lead Span 7.62; Lead Width 0.56; Pin Pitch 2.54; Body Length 9.65; Body Height 5.08; Pin Qty 8
+
+SOIC127P600X175-16B
+Small Outline Integrated Circuit, (50 mil Pitch SOIC): Lead Span 6.00; Pin Pitch 1.27; Body Length 4.90; Body Width 3.90; Body Height 1.75; Pin Qty 16
+
+SOIC127P600X175-14B
+Small Outline Integrated Circuit, (50 mil Pitch SOIC): Lead Span 6.00; Pin Pitch 1.27; Body Length 8.65; Body Width 3.90; Body Height 1.75; Pin Qty 14
+
+Single-In-Line Packages ................................ SIP + Body Width + W Lead Width + P Pin Pitch + L Body Length + H Component Height + Q Pin Qty
+Example: SIP150W52P254L1905H508Q8B
+Single-In-Line Package: Body Width 1.5; Lead Width 0.52; Pin Pitch 2.54; Body Length 19.05; Body Height 5.08; Pin Qty 8
+
+Single-In-Line Package: Body Width 6.00; Lead Width 0.50; Pin Pitch 2.54; Body Length 11.60; Body Height 10.16; Pin Qty 4
+SIP600W50P254L1160H1016Q4B

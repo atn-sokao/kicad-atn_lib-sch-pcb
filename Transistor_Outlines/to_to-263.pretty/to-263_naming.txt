@@ -1,0 +1,8 @@
+TO (Generic DPAK - Example: TO228P970X238-3)
+TO + Pitch P + Lead Span X Height - Pin Qty
+
+TO170P1435X457-5N
+Transistor Outline (TO-263-5), (Generic D2PAK): Lead Span 14.35; Pin Pitch 1.70; Body Length 10.16; Body Width 10.16; Body Height 4.57; Pin Qty 5
+
+14.35/2=7.175
+5.905-8.64= -2.735

@@ -1,0 +1,5 @@
+SOT23 & SOT223 Packages (Example: SOT230P700X180-4)
+SOT + Pitch P + Lead Span Nominal X Height - Pin Qty
+
+SOT230P700X180-4N
+SOT-223-3, Lead Span 7.00; Pin Pitch 2.30; Body Length 6.50; Body Width 3.50; Body Height 1.80; Pin Qty 4

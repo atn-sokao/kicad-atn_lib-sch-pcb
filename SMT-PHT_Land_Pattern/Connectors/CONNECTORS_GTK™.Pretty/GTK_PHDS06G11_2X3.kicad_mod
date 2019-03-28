@@ -1,5 +1,4 @@
-(module GTK_PHDS06G11_2X3 (layer F.Cu) (tedit 5C3E2438)
-  (descr "Resistor, Chip; 1.60 mm L X 0.825 mm W X 0.55 mm H body")
+(module GTK_PHDS06G11_2X3 (layer F.Cu) (tedit 5C9CD9E9)
   (fp_text reference P? (at -0.05 -3.3 180) (layer F.SilkS)
     (effects (font (size 0.85 0.85) (thickness 0.15)))
   )

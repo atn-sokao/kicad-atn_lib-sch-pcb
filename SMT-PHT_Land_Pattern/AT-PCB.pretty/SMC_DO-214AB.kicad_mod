@@ -1,4 +1,4 @@
-(module SMC_DO-214AB (layer F.Cu) (tedit 5C01D399)
+(module SMC_DO-214AB (layer F.Cu) (tedit 5C9F20A0)
   (fp_text reference D? (at -0.05 -3.85) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -43,9 +43,9 @@
   )
   (fp_poly (pts (xy -3.7 -2.85) (xy -2.75 -2.85) (xy -2.75 2.85) (xy -3.7 2.85)) (layer F.Fab) (width 0.15))
   (fp_line (start -3.75 2.9) (end -3.75 -2.9) (layer F.Fab) (width 0.1))
-  (pad K smd roundrect (at -3.6 0) (size 2.5 3.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.02)
+  (pad 1 smd roundrect (at -3.6 0) (size 2.5 3.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.02)
     (solder_mask_margin 0.1))
-  (pad A smd roundrect (at 3.6 0) (size 2.5 3.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.02)
+  (pad 2 smd roundrect (at 3.6 0) (size 2.5 3.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.02)
     (solder_mask_margin 0.1))
   (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMC.step
     (at (xyz 0 0 0))

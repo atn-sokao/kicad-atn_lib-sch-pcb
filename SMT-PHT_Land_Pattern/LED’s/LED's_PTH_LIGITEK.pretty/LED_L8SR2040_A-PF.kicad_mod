@@ -1,4 +1,4 @@
-(module LED_L8SR2040_A-PF (layer F.Cu) (tedit 5C9E55F6)
+(module LED_L8SR2040_A-PF (layer F.Cu) (tedit 5C9F966F)
   (descr "LIGITEK LED's (RED): Pitch 2.54; Body Diameter 3.00 ; Body Width 4.00; Body Height 6.70: Vertical Type")
   (tags LED'S_3mm)
   (fp_text reference REF** (at 0.05 3) (layer F.SilkS)
@@ -25,8 +25,8 @@
   (fp_line (start 0.7 0) (end -0.7 0) (layer F.CrtYd) (width 0.12))
   (pad 2 thru_hole circle (at 1.27 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 1 thru_hole roundrect (at -1.27 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask) (roundrect_rratio 0.031))
-  (model ${KISYS3DMOD}/LED_THT.3dshapes/LED_D3.0mm_Clear.step
-    (offset (xyz -1.27 0 -2.65))
+  (model ${AT_KICAD3D}/LEDd3R.STEP
+    (offset (xyz -1.27 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

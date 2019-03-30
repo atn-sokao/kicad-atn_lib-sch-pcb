@@ -1,4 +1,4 @@
-(module CAPPRD750W80D1800H3500B (layer F.Cu) (tedit 5C9E5B68)
+(module CAPPRD750W80D1800H3500B (layer F.Cu) (tedit 5C9F8A7B)
   (descr "Capacitors, Polarized Radial Diameter; lead spacing 7.50; lead width 0.80; Body Diameter 18; Height 35.00CAP")
   (tags CAPPRD_18x35)
   (fp_text reference REF** (at 0 -9.8) (layer F.SilkS)
@@ -27,4 +27,9 @@
   (fp_circle (center 0 0) (end 9.2 0) (layer F.CrtYd) (width 0.05))
   (pad 2 thru_hole circle (at 3.75 -0.1 180) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole roundrect (at -3.75 -0.05 180) (size 2 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.025))
+  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Radial_D18.0mm_H35.5mm_P7.50mm.wrl
+    (offset (xyz -3.75 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

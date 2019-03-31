@@ -1,5 +1,4 @@
-(module XTAL_NX8045GB (layer F.Cu) (tedit 5C3E25DF)
-  (descr "Resistor, Chip; 1.60 mm L X 0.825 mm W X 0.55 mm H body")
+(module XTAL_NX8045GB (layer F.Cu) (tedit 5CA03D79)
   (attr smd)
   (fp_text reference Y? (at 0 -3.2 180) (layer F.SilkS)
     (effects (font (size 0.85 0.85) (thickness 0.15)))

@@ -1,5 +1,4 @@
-(module LQFP-32 (layer F.Cu) (tedit 5C3E1665)
-  (descr "Resistor, Chip; 1.60 mm L X 0.825 mm W X 0.55 mm H body")
+(module LQFP-32 (layer F.Cu) (tedit 5CA03D9C)
   (fp_text reference U? (at 4.8 4.6) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )

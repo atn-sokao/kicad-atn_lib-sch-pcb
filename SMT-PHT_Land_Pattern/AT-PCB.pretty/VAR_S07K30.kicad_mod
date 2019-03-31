@@ -1,5 +1,4 @@
-(module VAR_S07K30 (layer F.Cu) (tedit 5C3E2653)
-  (descr "Resistor, Chip; 1.60 mm L X 0.825 mm W X 0.55 mm H body")
+(module VAR_S07K30 (layer F.Cu) (tedit 5CA03D81)
   (fp_text reference RV? (at 0 -2.8 180) (layer F.SilkS)
     (effects (font (size 0.85 0.85) (thickness 0.15)))
   )

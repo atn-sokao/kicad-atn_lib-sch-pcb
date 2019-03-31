@@ -1,5 +1,4 @@
-(module S-PQFP-G32 (layer F.Cu) (tedit 59CBD85E)
-  (descr "Resistor, Chip; 1.60 mm L X 0.825 mm W X 0.55 mm H body")
+(module S-PQFP-G32 (layer F.Cu) (tedit 5CA03D8E)
   (fp_text reference U? (at 2.95 -8) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )

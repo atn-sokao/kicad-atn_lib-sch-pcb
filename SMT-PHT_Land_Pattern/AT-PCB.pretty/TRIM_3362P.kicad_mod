@@ -1,8 +1,9 @@
-(module BURNS_3362P (layer F.Cu) (tedit 5C3E2979)
+(module TRIM_3362P (layer F.Cu) (tedit 5E1A0905)
+  (descr BURNS)
   (fp_text reference VR? (at 0 -4.25 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (fp_text value BURNS_3362P (at 0 4.7) (layer F.SilkS) hide
+  (fp_text value 3362P (at 0 4.7) (layer F.SilkS) hide
     (effects (font (size 0.85 0.75) (thickness 0.15)))
   )
   (fp_line (start 3.3 3.15) (end -3.3 3.15) (layer F.Fab) (width 0.1))

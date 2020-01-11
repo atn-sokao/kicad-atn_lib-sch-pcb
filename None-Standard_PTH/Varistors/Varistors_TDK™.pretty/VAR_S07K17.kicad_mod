@@ -1,8 +1,10 @@
-(module VAR_S07K30 (layer F.Cu) (tedit 5CA03D81)
+(module VAR_S07K17 (layer F.Cu) (tedit 5E19FC29)
+  (descr "Varistor diameter 7mm,17Vac(rms),250A,Straight Lead,Standard Series")
+  (tags S07K17)
   (fp_text reference RV? (at 0 -2.8 180) (layer F.SilkS)
     (effects (font (size 0.85 0.85) (thickness 0.15)))
   )
-  (fp_text value VAR_S07K30 (at 0 3.1) (layer F.SilkS) hide
+  (fp_text value VAR_S07K17 (at 0 3.1) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (fp_line (start 2.6 2.1) (end -2.6 2.1) (layer F.CrtYd) (width 0.05))

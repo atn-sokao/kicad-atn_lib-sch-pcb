@@ -1,4 +1,5 @@
-(module CER1277B (layer F.Cu) (tedit 5A734191)
+(module IND_CER1277B (layer F.Cu) (tedit 5E1A07E6)
+  (descr "SAGAMI ELEC - SMD Power Inductor 33uH ±20%, 4.75A,DCR 0.035Ω ±30%")
   (solder_mask_margin 0.1016)
   (fp_text reference L (at 0 -7.85) (layer F.SilkS)
     (effects (font (size 1.2 1) (thickness 0.2)))

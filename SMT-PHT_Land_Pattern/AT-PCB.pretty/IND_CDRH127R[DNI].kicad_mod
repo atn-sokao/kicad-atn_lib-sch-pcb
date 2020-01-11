@@ -1,4 +1,4 @@
-(module CDRH127R[DNI] (layer F.Cu) (tedit 5A7345E8)
+(module IND_CDRH127R[DNI] (layer F.Cu) (tedit 5E1A0820)
   (solder_mask_margin 0.1016)
   (fp_text reference L (at 0 -7.3) (layer F.SilkS)
     (effects (font (size 1.2 1) (thickness 0.2)))

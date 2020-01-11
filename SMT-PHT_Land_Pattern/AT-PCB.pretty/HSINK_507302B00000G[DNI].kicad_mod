@@ -1,4 +1,4 @@
-(module 507302B00000G[DNI] (layer F.Cu) (tedit 59CE83BF)
+(module HSINK_507302B00000G[DNI] (layer F.Cu) (tedit 5E1A08CD)
   (fp_text reference MP? (at -0.05 -24) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )

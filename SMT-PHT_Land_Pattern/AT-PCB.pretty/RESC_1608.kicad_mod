@@ -1,7 +1,7 @@
-(module RESC_1608 (layer F.Cu) (tedit 5CAA0039)
+(module RESC_1608 (layer F.Cu) (tedit 5E1B0014)
   (solder_mask_margin 0.1016)
   (fp_text reference R (at 2.45 0) (layer F.SilkS)
-    (effects (font (size 1.2 1) (thickness 0.2)))
+    (effects (font (size 0.85 0.85) (thickness 0.17)))
   )
   (fp_text value RESC_1608 (at 0 1.8) (layer F.SilkS) hide
     (effects (font (size 1 0.85) (thickness 0.2)))
